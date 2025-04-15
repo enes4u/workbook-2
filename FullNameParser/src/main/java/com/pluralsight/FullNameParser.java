@@ -7,7 +7,7 @@ public class FullNameParser {
         Scanner frontDesk = new Scanner(System.in);
 
         // Enter full Name
-
+        System.out.print("Enter Full Name: ");
         String fullName= frontDesk.nextLine().trim();// trim from start
         String[] nameParts = fullName.split("\\s+"); //split by spaces among name
         // give each different variableName
