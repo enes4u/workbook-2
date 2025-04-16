@@ -21,7 +21,7 @@ public class Java {
         int visitorScore = Integer.parseInt(scores[1]);
 
         // Determine the winner
-        String winner;
+        String winner;// declare dont assign
         if (homeScore > visitorScore) {
             winner = homeTeam;
         } else if (visitorScore > homeScore) {
