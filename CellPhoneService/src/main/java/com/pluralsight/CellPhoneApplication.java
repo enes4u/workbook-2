@@ -35,7 +35,17 @@ public class CellPhoneApplication {
         System.out.println("Who is the owner of the phone?");
         String  owner = askQs.nextLine();
         myPhone.setOwner(owner);
-        System.out.println(owner);
+
+
+        System.out.println("Phone serial number is :"+serialNumber);// left here
+
+        System.out.println(" I use this carrier --what was it ? uumm " +carrier);
+
+        System.out.println(" Phone model is fancy yayy!: "+model);
+
+        System.out.println(" Phone number is "+phoneNumber);
+
+        System.out.println(" Owner name is :"+owner);
 
 
     }
