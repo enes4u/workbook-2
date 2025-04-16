@@ -10,7 +10,11 @@ public class CellPhoneApplication {
         System.out.println("What is the serial number?");
         String serialNumber = askQs.nextLine();
         myPhone.setSerialNumber(serialNumber);
-        System.out.println(serialNumber);// left here
+
+
+        System.out.println("What model is the phone?");
+        String  model = askQs.nextLine();
+        myPhone.setModel(model);
 
         System.out.println("Who is the carrier?");
         String carrier = askQs.nextLine();
