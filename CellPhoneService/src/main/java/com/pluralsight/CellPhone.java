@@ -6,6 +6,15 @@ public class CellPhone {
     private String carrier;
     private String phoneNumber;
     private String owner;
+    private String dial;
+
+    public String getDial() {
+        return dial;
+    }
+
+    public void dial (String phoneNumber, String owner) {
+        System.out.println(getOwner() + " is calling " + getPhoneNumber());
+    }
 
 
     public CellPhone() {
@@ -19,32 +28,26 @@ public class CellPhone {
     public String getSerialNumber() {
         return this.serialNumber;
     }
-
     public String getModel() {
         return this.model;
     }
-
     public String getCarrier() {
         return this.carrier;
     }
     public String getPhoneNumber(){
         return this.phoneNumber;
     }
-
     public String getOwner() {
         return this.owner;
     }
-
 
     ///  setters
     public void  setSerialNumber(String serialNumber) {
          this.serialNumber= serialNumber;
     }
-
     public void  setModel(String Model) {
           this.model= model;
     }
-
     public void  setCarrier(String carrier) {
          this.carrier=carrier;
     }
