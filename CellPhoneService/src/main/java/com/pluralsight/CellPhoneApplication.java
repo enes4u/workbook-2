@@ -41,6 +41,8 @@ public class CellPhoneApplication {
         System.out.println(" Owner name is :"+owner);
         myPhone.dial(owner, phoneNumber);
 
+        askQs.close();
+
 
     }
 }
